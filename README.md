@@ -4,7 +4,7 @@
 
 ## Overview of the Analysis
 
-
+[Link to the code](/Credit_Risk/credit_risk_classification.ipynb)
 
  ## Purpose of the analysis:
                           
