@@ -4,7 +4,7 @@
 
 ## Overview of the Analysis
 
-
+[Link to the code](/Credit_Risk/credit_risk_classification.ipynb)
 
  ## Purpose of the analysis:
                           
@@ -44,9 +44,11 @@ Class 1 (presumably representing high-risk or potentially problematic loans) has
 RandomOverSampler method is used in the analysis which is a resampling technique commonly used in dealing with imbalanced datasets, where one class significantly outnumbers the other. The primary goal of RandomOverSampler is to address class imbalance by randomly duplicating instances from the minority class(high_risk_loans in our dataset) until a more balanced distribution is achieved.
 
 ## Results
-
 ## Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
+
+![original data](/screenshots/Screenshot%202024-01-24%20133711.png)
+
 
 * Balanced Accuracy Score: 0.967
 A high score indicates good overall performance in correctly predicting both healthy (Class 0) and high-risk (Class 1) loans.
@@ -67,6 +69,10 @@ Class 1 (High-Risk Loan):
 
 
 ## Machine Learning Model 2:
+
+![resampled data](/screenshots/Screenshot%202024-01-24%20133656.png)
+
+
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
  * Balanced Accuracy Score: 0.994
