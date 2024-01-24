@@ -6,13 +6,14 @@
 
 
 
- ##purpose of the analysis:
+ ## Purpose of the analysis:
                           
  In this analyis  techniques have been used  to train and evaluate a model based on loan risk. A dataset of historical lending activity from a peer-to-peer lending services company is used to build a model that can identify the creditworthiness of borrowers.
 
- ##financial information :
+ ## Financial information :
 
 The dataset is related to loans and includes various financial information about borrowers as follows: 
+
 loan_size: The amount of the loan requested by the borrower.
 interest_rate: The interest rate associated with the loan.
 borrower_income: The income of the borrower.
@@ -21,17 +22,17 @@ num_of_accounts: The number of accounts the borrower has.
 derogatory_marks: The number of derogatory marks (negative remarks) on the borrower's credit report.
 total_debt: The total debt amount of the borrower.
 
-##prediction :
+## Prediction :
 
 We are predicting the creditworthiness of borrowers based on a dataset of historical lending activity. The primary prediction task is to determine whether a loan is considered risky or not, which is typically represented by a binary target variable.
 
-#basic information about the variables we were trying to predict (e.g., `value_counts`).
+__basic information about the variables we were trying to predict (e.g., `value_counts`).
 
 Used the value_counts function  to count the occurrences of each unique value in the target variable y. The output indicates the distribution of the target variable loan_status in our dataset.
 Class 0 (presumably representing low-risk or healthy loans) has a count of 75,036.
 Class 1 (presumably representing high-risk or potentially problematic loans) has a count of 2,500.
 
-##stages of the machine learning process :
+## Stages of the machine learning process :
  1. Splitting the Data into Training and Testing Sets
  2. Instantiating the Logistic Regression Model
  3. Fitting the model with the training data
@@ -39,7 +40,7 @@ Class 1 (presumably representing high-risk or potentially problematic loans) has
  5. Evaluating the model's performance by clculating the accuracy score , generating a confusion matrix and printing a classification report
 
 
-##Resampling method used:  RandomOverSampler method is used in the analysis which is a resampling technique commonly used in dealing with imbalanced datasets, where one class significantly outnumbers the other. The primary goal of RandomOverSampler is to address class imbalance by randomly duplicating instances from the minority class(high_risk_loans in our dataset) until a more balanced distribution is achieved.
+## Resampling method used:  RandomOverSampler method is used in the analysis which is a resampling technique commonly used in dealing with imbalanced datasets, where one class significantly outnumbers the other. The primary goal of RandomOverSampler is to address class imbalance by randomly duplicating instances from the minority class(high_risk_loans in our dataset) until a more balanced distribution is achieved.
 
 ## Results
 
