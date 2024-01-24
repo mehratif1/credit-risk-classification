@@ -45,6 +45,8 @@ RandomOverSampler method is used in the analysis which is a resampling technique
 
 ## Results
 
+![resampled data](/screenshots/Screenshot%202024-01-24%20133656.png)
+
 ## Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
