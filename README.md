@@ -14,12 +14,12 @@
 
 The dataset is related to loans and includes various financial information about borrowers as follows: 
 
-# loan_size: The amount of the loan requested by the borrower.<br>
-# interest_rate: The interest rate associated with the loan.
-borrower_income: The income of the borrower.
-debt_to_income: The ratio of the borrower's debt to their income.
-num_of_accounts: The number of accounts the borrower has.
-derogatory_marks: The number of derogatory marks (negative remarks) on the borrower's credit report.
+ loan_size: The amount of the loan requested by the borrower.<br>
+ interest_rate: The interest rate associated with the loan.<br>
+borrower_income: The income of the borrower.<br>
+debt_to_income: The ratio of the borrower's debt to their income.<br>
+num_of_accounts: The number of accounts the borrower has.<br>
+derogatory_marks: The number of derogatory marks (negative remarks) on the borrower's credit report.<br>
 total_debt: The total debt amount of the borrower.
 
 ## Prediction :
