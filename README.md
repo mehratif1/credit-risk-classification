@@ -14,8 +14,8 @@
 
 The dataset is related to loans and includes various financial information about borrowers as follows: 
 
-loan_size: The amount of the loan requested by the borrower.
-interest_rate: The interest rate associated with the loan.
+# loan_size: The amount of the loan requested by the borrower.<br>
+# interest_rate: The interest rate associated with the loan.
 borrower_income: The income of the borrower.
 debt_to_income: The ratio of the borrower's debt to their income.
 num_of_accounts: The number of accounts the borrower has.
@@ -40,7 +40,8 @@ Class 1 (presumably representing high-risk or potentially problematic loans) has
  5. Evaluating the model's performance by clculating the accuracy score , generating a confusion matrix and printing a classification report
 
 
-## Resampling method used:  RandomOverSampler method is used in the analysis which is a resampling technique commonly used in dealing with imbalanced datasets, where one class significantly outnumbers the other. The primary goal of RandomOverSampler is to address class imbalance by randomly duplicating instances from the minority class(high_risk_loans in our dataset) until a more balanced distribution is achieved.
+## Resampling method used:  
+RandomOverSampler method is used in the analysis which is a resampling technique commonly used in dealing with imbalanced datasets, where one class significantly outnumbers the other. The primary goal of RandomOverSampler is to address class imbalance by randomly duplicating instances from the minority class(high_risk_loans in our dataset) until a more balanced distribution is achieved.
 
 ## Results
 
